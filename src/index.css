@@ -16,6 +16,7 @@ code {
 
 .carousel {
   text-align: center;
+  margin-bottom: 30px;
 }
 h4 {
   color: azure;
@@ -25,6 +26,7 @@ h1 {
 }
 .whiteP {
   color: azure;
+  margin: 30px;
 }
 img {
   height: 700px;
@@ -33,6 +35,3 @@ img {
 .nav {
   padding: 50px; 
 }
-/* .marketP {
-  color: black;
-} */

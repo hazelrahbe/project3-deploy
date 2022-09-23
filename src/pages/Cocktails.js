@@ -32,18 +32,22 @@ useEffect(() => {
     return (
         <section className="container">
             <form onSubmit={handleSubmit}> 
-            <input type="text" value={mySearch} name="search" placeholder="search" onChange={handleChange}/>
-            <button type="submit">Submit</button>
+            <div className="cocktails">
+            <input className="Cinput" type="text" value={mySearch} name="search" placeholder="search" onChange={handleChange}/>
+            <button className="Cbutton" type="submit">Submit</button>
+            </div>
             </form>
             {alldrinks.map((drink) => {
                 return (
                 <div key = {drink._id} className="card">
 
                     <Link to= {`/cocktails/${drink.idDrink}`}>
-                    <p>ID: {drink._id}</p>
-                    <p>Cocktail Name: {drink.strDrink}</p>
+                    <p className="Cptag1">ID: {drink._id}</p>
+                    <p className="Cptag2">Cocktail Name: {drink.strDrink}</p>
+                    <div className="CDimg">
                     <img src={drink.strDrinkThumb} alt="drink img"/>
-                    <p>Thier id: {drink.idDrink}</p>
+                    </div>
+                    <hr></hr>
                     </Link>
                     </div>
                 )
