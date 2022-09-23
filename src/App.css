@@ -1,0 +1,77 @@
+.App {
+    min-height: 100vh;
+    background: #161616;
+}
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+padding-left: 20px;
+margin-top: 20px;;
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-size: 80px;
+font-weight: bolder;
+flex: 1;
+}
+.footer {
+    text-align: center;
+    text-decoration: none;
+    gap: 30px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 45%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav {
+    /* margin-left: 75%; */
+    display: flex;
+    gap: 25px;
+    /* margin-top: -150px; */
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main {
+    text-align: center;
+}
+.container {
+
+    margin-left: 20px;
+}
+.login {
+    padding: 10px;
+    text-align: center;
+    color: azure;
+}
+.carousel {
+    position: center;
+    min-height: fit-content;
+}
+
+.registerinput {
+    text-align: center;
+    padding: 30px;
+    height: 80px;
+}
+input {
+    height: 40px;
+    width: 350px;
+}
+.labels {
+    text-shadow: 1px -1px 0 #ffffff;
+    position: relative;
+    right: 130px;
+    top: 20px;
+}
+.placeholders {
+    padding: 30px;
+    height: 80px;
+}
+#email {
+    position: relative;
+    right: 148px;
+}
