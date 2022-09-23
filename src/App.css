@@ -133,3 +133,10 @@ hr {
     padding-right: 300px;
     font-size: 30px;
 }
+.Rp {
+    position: relative;
+    left: 800px;
+    /* height: 800px;
+    width: 800px; */
+    margin-top: 100px;
+}

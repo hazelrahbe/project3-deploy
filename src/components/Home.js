@@ -12,7 +12,7 @@ import ReactPlayer from 'react-player';
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <ReactPlayer url='https://www.youtube.com/watch?v=Q196-9MxOMw' margin="auto" alt="Second slide"/>
+          <ReactPlayer className="Rp"url='https://www.youtube.com/watch?v=Q196-9MxOMw' alt="Second slide"/>
           <Carousel.Caption>
             <h3>Drinks with Friends</h3>
           </Carousel.Caption>
