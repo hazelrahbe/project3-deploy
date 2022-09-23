@@ -41,7 +41,7 @@ useEffect(() => {
                 return (
                 <div key = {drink._id} className="card">
 
-                    <Link to= {`/cocktails/${drink.idDrink}`}>
+                    <Link style={{textDecoration:'none'}} to= {`/cocktails/${drink.idDrink}`}>
                     <p className="Cptag2">Cocktail Name: {drink.strDrink}</p>
                     <div className="CDimg">
                     <img src={drink.strDrinkThumb} alt="drink img"/>
