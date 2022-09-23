@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import ReactPlayer from 'react-player';
 
   function Home() {
     return (
@@ -11,7 +12,7 @@ import Carousel from 'react-bootstrap/Carousel';
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="https://i.imgur.com/Sa2XjSx.jpeg" margin="auto" alt="Second slide"/>
+          <ReactPlayer url='https://www.youtube.com/watch?v=Q196-9MxOMw' margin="auto" alt="Second slide"/>
           <Carousel.Caption>
             <h3>Drinks with Friends</h3>
           </Carousel.Caption>
