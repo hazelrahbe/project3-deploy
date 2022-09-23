@@ -19,10 +19,8 @@ flex: 1;
     text-align: center;
     text-decoration: none;
     gap: 30px;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    display: flex;
-    margin-left: 45%;
     font-weight: bold;
     font-size: 25px;
 }
@@ -74,4 +72,70 @@ input {
 #email {
     position: relative;
     right: 148px;
+}
+.cocktails {
+    text-align: center;
+}
+.Cinput {
+    margin: 30px;
+    margin-bottom: 80px;
+}
+.Cbutton {
+    border-radius: 10%;
+}
+
+input::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+}
+.Cimg {
+    border: 5px solid rgb(233, 195, 124);
+    margin-top: 10px;
+}
+.crd {
+    text-align: center;
+}
+.Cptag1 {
+    margin: 20px;
+    margin-bottom: 30px;
+    color: rgb(226, 164, 71);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Cptag2 {
+    margin: 30px;
+    margin-bottom: 10px;
+    color: rgb(226, 164, 71);
+    text-decoration: none;
+}
+
+hr {
+    display: flex;
+    color:white;
+    margin-top: 60px;
+    width: 9000px;
+    height: 50px;
+    
+}
+.lastPtag {
+    color: solid white;
+}
+.person {
+    text-align: center;
+    color: antiquewhite;
+}
+.footerdiv {
+    text-align: center;
+}
+.Sh2 {
+    margin: 60px;
+}
+.Sp {
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 30px;
 }

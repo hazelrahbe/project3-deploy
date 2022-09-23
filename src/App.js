@@ -15,9 +15,6 @@ import Cocktails from './pages/Cocktails';
 import Create from "./pages/Create";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Aboutus from "./pages/Aboutus";
-import LoginLink from './components/LoginLink';
-import Login from './pages/LogIn';
-import Register from './pages/Register';
 import Show from './pages/Show';
 
 
@@ -29,7 +26,6 @@ function App() {
       <header className="App-header">
       <Header />
       <Nav />
-      <LoginLink />
       </header>
       <Routes>
         <Route exact path="/" element={<Homepage />} />
@@ -37,8 +33,6 @@ function App() {
         <Route path="/create" element={<Create />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
         <Route path='/cocktails/:id' element={<Show />} />
       </Routes>
       <Footer /> 
