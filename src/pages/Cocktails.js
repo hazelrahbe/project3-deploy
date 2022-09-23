@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { json, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 const Cocktails = () => {
@@ -42,7 +42,7 @@ useEffect(() => {
                     <Link to= {`/cocktails/${drink.idDrink}`}>
                     <p>ID: {drink._id}</p>
                     <p>Cocktail Name: {drink.strDrink}</p>
-                    <img src={drink.strDrinkThumb}/>
+                    <img src={drink.strDrinkThumb} alt="drink img"/>
                     <p>Thier id: {drink.idDrink}</p>
                     </Link>
                     </div>
